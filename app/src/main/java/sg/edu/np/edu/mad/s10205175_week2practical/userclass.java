@@ -45,5 +45,5 @@ public class userclass {
         return followed;
     }
 
-    tring name
+
 }
