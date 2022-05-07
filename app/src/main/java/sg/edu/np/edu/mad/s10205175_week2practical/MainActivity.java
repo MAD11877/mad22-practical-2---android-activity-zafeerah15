@@ -31,10 +31,10 @@ public userclass initial()
         return initialization;
         };
 
-public void followstatus (User userclass, Button button)
+public void followstatus (User userclass, Button button2)
         {
-        TextView txt = button;
-        if(user.followed == false)
+            TextView txt = findViewById(R.id.button2);
+            if(user.followed == false)
         {
         txt.setText("Follow");
         }
