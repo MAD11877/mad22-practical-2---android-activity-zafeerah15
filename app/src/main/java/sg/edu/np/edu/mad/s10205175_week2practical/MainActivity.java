@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         }
         followstatus(user1,followbutton);
     }
-};
-public class userclass initial(
+
+public userclass initial()
         {
         userclass initialization = new userclass("name","description",0,false);
         return initialization;
@@ -42,7 +42,8 @@ public void followstatus (User userclass, Button button)
         {
         txt.setText("Unfollow");
         }
-        }
+        };
+}
 
 
 
